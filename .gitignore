@@ -2,3 +2,6 @@
 .DS_Store
 
 *.pyc
+
+# tree-rnn
+tree-rnn-tf/weights/
