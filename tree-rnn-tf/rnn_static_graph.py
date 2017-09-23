@@ -1,13 +1,16 @@
-import os, sys, shutil, time, itertools
-import math, random
-from collections import OrderedDict, defaultdict
+import itertools
+import os
+import random
+import shutil
+import sys
+import time
+from collections import OrderedDict
 
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 import tensorflow as tf
-
-import utils
 import tree
+import utils
 
 MODEL_STR = 'rnn_embed=%d_l2=%f_lr=%f.weights'
 SAVE_DIR = './weights/'

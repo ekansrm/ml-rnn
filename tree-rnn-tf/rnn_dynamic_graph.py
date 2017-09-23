@@ -1,11 +1,15 @@
-import os, sys, shutil, time, itertools
-import math, random
+import itertools
+import math
+import os
+import random
+import shutil
+import sys
+import time
 from collections import OrderedDict
 
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 import tensorflow as tf
-
 import tree as tr
 from utils import Vocab
 
