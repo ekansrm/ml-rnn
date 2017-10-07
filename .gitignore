@@ -3,5 +3,10 @@
 
 *.pyc
 
+data/
+
 # tree-rnn
 tree-rnn-tf/weights/
+
+# lstm-ptb-tf
+lstm-ptb-tf/save/
